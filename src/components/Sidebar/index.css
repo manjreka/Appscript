@@ -1,0 +1,27 @@
+.sidebarFilter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropDownButton {
+  background-color: transparent;
+  border: none;
+}
+
+.hideIdealFor {
+  display: none;
+}
+
+.sidebarFilterHeading {
+  font-weight: bold;
+}
+
+.sidebar-main-container {
+  margin: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-main-container {
+    display: none;
+  }
+}
